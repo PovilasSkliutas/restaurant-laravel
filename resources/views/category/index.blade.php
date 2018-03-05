@@ -31,7 +31,7 @@
             @foreach ($categories as $category)
             <tr>
               <th class="text-center">{{ $category->id}}</th>
-              <td class="text-center font-weight-bold" style="color: blue">{{ $category->title}}</td>
+              <td class="text-center font-weight-bold">{{ $category->title}}</td>
               <td class="text-center">{{ $category->created_at}}</td>
               <td class="text-center">{{ $category->updated_at}}</td>
               {{-- @if(Auth::user()) --}}
